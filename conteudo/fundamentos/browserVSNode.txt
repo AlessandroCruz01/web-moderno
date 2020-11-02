@@ -1,0 +1,38 @@
+É muito importante saber o run time que estamos executando. por exemplo se estamos no beckand estamos no node, se estamos no front, estamos no browser...
+
+no browser - operacoes assincronas
+             coll back
+             padroes (ex: observer)
+
+#console do browser...
+
+window -  é um grande objeto global no navegador
+this - é uma outra forma de acessar qq lugar no global e pode variar dependendo de quem chamou
+
+
+evite tocar o escopo global!!!!!!!!!!!
+
+window
+this === window
+true
+var a = "Texto"
+undefined
+window.a
+"Texto"
+this.a
+"Texto"
+let b = 123
+undefined
+window.b
+undefined
+this.b
+undefined
+b
+123
+const c = 456
+undefined
+window.c
+undefined
+
+
+DENTRO DE NODE, CADA ARQUIVO É UM MODULO!
