@@ -5,6 +5,19 @@ parâmetros, “ax2”, “bx” e “c”, de tal modo que na equação: 3x² -
 que os resultados sejam iguais. Caso o delta seja negativo, retorne, ao invés do vetor, um string com a frase:
 “Delta é negativo”.*/
 
-const bhaskara = (ax, bx, c) => {
+const bhaskara = (a, b, c) => {
+    let delta = Math.pow(b, 2) - 4 * a * c
     
+    
+    if (delta<0) {
+        return `Delta negativo`
+    } else {
+        let x1 = (-b +(Math.sqrt(delta))) / (2*a)
+        let x2 = (-b -(Math.sqrt(delta))) / (2*a)
+
+        return [x1, x2]
+    }
 }
+
+console.log(bhaskara(1,12,-13))
+console.log(bhaskara(2,-16,-18))
