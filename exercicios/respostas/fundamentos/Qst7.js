@@ -8,7 +8,6 @@ que os resultados sejam iguais. Caso o delta seja negativo, retorne, ao invés d
 const bhaskara = (a, b, c) => {
     let delta = Math.pow(b, 2) - 4 * a * c
     
-    
     if (delta<0) {
         return `Delta negativo`
     } else {
@@ -21,3 +20,6 @@ const bhaskara = (a, b, c) => {
 
 console.log(bhaskara(1,12,-13))
 console.log(bhaskara(2,-16,-18))
+
+console.log(bhaskara(1, 3, 2))
+console.log(bhaskara(3, 1, 2))

@@ -7,7 +7,10 @@ const jurosSimples = (capitalInicial = 0, juros = 0.0, tempo = 0) => {
 }
 
 const jurosCompostos = (capitalInicial = 0, juros = 0.0, tempo = 0) => {
-    return ``
+    return (capitalInicial * (1 + juros) ** tempo)
 }
 console.log(jurosSimples(1000.00, 0.1, 3))
 console.log(jurosCompostos(100.00, 0.1, 3))
+
+console.log(jurosSimples(100, 10/100, 2));
+console.log(jurosCompostos(100, 10/100, 2))
