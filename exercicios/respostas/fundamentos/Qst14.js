@@ -24,4 +24,3 @@ console.log(fruta('maçã'))
 console.log(fruta('kiwi'))
 console.log(fruta('melancia'))
 console.log(fruta('123456'))
-
