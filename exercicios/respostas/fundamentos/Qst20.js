@@ -11,9 +11,7 @@ const cedulas = (valor) => {
             }
         }
     }
-
-
-
+    return res
 }
 
 console.log(cedulas(18))
