@@ -34,4 +34,6 @@ carro = {
 
 // 2 - ENCAPSULAMENTO - Detalhes de implementacao escondido e mostrar apenas a quem apenas para determinado objeto. Continuando com o exemplo do carro, nos sabemos que o carro precisa trocar a marcha, precisa de direcao , gasolina, essas coisas, mas as informacoes mais a fundo como, o pq um carro tem mais cavalos que outros, o pq a gasolina é queimada, ou seja detalhes internos sao encapsulados. 
 
-// 3 - HERANÇA - 
+// 3 - HERANÇA (prototype) - é um principio baseado em uma relacao( é , um ), por exemplo carro é ubjeto , motor é outro objeto, ou seja um carro tem um motor, basicamente a heranca é onde vc recebe os objetos e atributos de uma classe pai no js vc so pode ter um unico pai
+
+// 4 - POLIMORFISMO - significa multiplas formas
