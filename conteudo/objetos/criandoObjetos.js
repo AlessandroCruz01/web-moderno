@@ -27,4 +27,26 @@ console.log(typeof Object, typeof new Object()) //perceba que o object é uma fu
     const p2 = new Produto('Notebook', 2998.99, 0.25)
     console.log(p1.getPrecoComDesconto(), p2.getPrecoComDesconto())
 
-    //4 - Funcao Factory
+    //4 - Funcao Factory - Factory é um padrao de projeto, que nada mais é que uma funcao que criar objetos
+    function criaFuncionario(nome, salariobase, faltas){
+        return {
+            nome,
+            salariobase,
+            getSalario() {
+                return (salariobase / 30) * (30 - faltas)
+            }
+        }
+    }
+
+    const f1 = criaFuncionario('jao', 7980.00, 4)
+    const f2 = criaFuncionario('maria', 111400, 5)
+    console.log(f1.getSalario(), f2.getSalario())
+
+    //5 - *MENÇÃO - Object.create
+    const filha = Object.create(null)
+    filha.nome = 'ana'
+    console.log(filha)
+
+    //UMA FUNÇÃO FAMOSA QUE RETORNA OBJETO...
+    const fromJSON = JSON.parse('{"info": "Sou JSON"}')
+    console.log(fromJSON.info)
