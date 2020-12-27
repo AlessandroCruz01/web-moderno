@@ -1,6 +1,6 @@
 //CADEIA DE PROTOTIPOS (prototype chain)
 
-Object.prototype.attr0 = 'Z'
+Object.prototype.attr0 = 'Z' //Nao é recomendadao que vc fique colocando atributos no prototype
 
 const avo = {
     attr1 : 'A'
@@ -34,7 +34,7 @@ const carro = {
     }, 
     
     status() {
-        return `${ this.velAtual }Km/h de ${this.velMax}Km/h`
+        return `${this.velAtual }Km/h de ${this.velMax}Km/h`
     }
 }
 
@@ -52,6 +52,12 @@ const Volvo = {
 
 Object.setPrototypeOf(ferrari, carro)//Esta funcao serve para estabelecer uma relacao de prototipo. no caso ferrari tem carro como seu prototipo (pai) o equivalente a __proto__: carro
 Object.setPrototypeOf(Volvo, carro)
+
+ferrari.aceleraMais(300)
+console.log(ferrari.status())
+
+Volvo.aceleraMais(300)
+console.log(Volvo.status())
 
 console.log(ferrari)
 console.log(Volvo)
