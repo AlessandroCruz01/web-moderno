@@ -6,7 +6,13 @@ const produtos = [
     { nome: 'Copo de vidro', preco: 12.49, fragil: true },
     { nome: 'Copo de plastico', preco: 18.49, fragil: true }
 ]
+ 
+//Documentação = https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/filtro
 
-console.log(produtos.filter(function(p){
-    return false
-}))
+const filtro = function(e){
+    if ((e.fragil === true) && (e.preco >= 500)){
+        return true
+    }
+}
+
+console.log(produtos.filter(filtro))
