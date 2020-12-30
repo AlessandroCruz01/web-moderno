@@ -11,3 +11,9 @@ console.log(resultado)
 
 //O MAP NAO TRANSFORMA O array ATUAL, ELE GERA OUTRO Array
 
+const soma10 = e => e + 10 //Lembre que funcoes arrow tem seu return implicito!
+const triplo = e => e * 3
+const paraDinheiro = e => `R$ ${parseFloat(e).toFixed(2).replace('.', ',')}`
+
+resultado = nums.map(soma10).map(triplo).map(paraDinheiro)
+console.log(resultado)
