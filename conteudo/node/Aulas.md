@@ -36,3 +36,4 @@
 # SISTEMA DE MÓDULOS: REQUIRE
 
     Ainda falando sobre o sistema de modulos de node, vamos focar em Require. vamos criar duas pastas dentro do diretorio node vamos ate la...
+    Perceba que cada pasta é um diretorio 
