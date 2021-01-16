@@ -32,3 +32,7 @@
     <-- Perceba que ao rodarmos o comando de instalacao de pacotes citado acima, apareceram duas areas novas dentro do diretorio de conteudo das aulas de node, no caso o node_modules e dentro dele veremos que esta instalado apenas o lodash e suas dependencias (NUNCA MANDE O NODE_MODULES PARA O REPOSITORIO NO GITHUB USE O GITIGNORE) -->
 
     <-- Beleza! acabamos de instalar o lodash e a pasta node_modules foi criada!  agora vamos criar o novo arquivo chamado usndoModulosTerceiros.js (vamos pra lá!) -->
+
+# SISTEMA DE MÓDULOS: REQUIRE
+
+    Ainda falando sobre o sistema de modulos de node, vamos focar em Require. vamos criar duas pastas dentro do diretorio node vamos ate la...
