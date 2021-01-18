@@ -37,3 +37,48 @@
 
     Ainda falando sobre o sistema de modulos de node, vamos focar em Require. vamos criar duas pastas dentro do diretorio node vamos ate la...
     Perceba que cada pasta é um diretorio 
+
+# SISTEMA DE MÓDULOS: EXPORT
+
+    Agora vamos ver algumas observacoes sobre o modulo export. vamos ao arquivo exportar.js...
+    Perceba que tudo que é exportado a partir de um modulo é o module.exports. usar apenas exports ou this é apenas uma forma de referenciar o objeto apontado por module.exportes...
+
+# ARQUIVO package.json
+
+    Nesta aula vamos ver o arquivo descritor de porjeos em node, o chamado package.json
+    vamos criar dentro da pasta node uma nova pasta, simbolizando um novo projeto. 
+    vamos acessar o terminal e ir pra dentro da pasta criada
+
+    existe um comando chamado npm init, este comando habilita um wizard para definicao do projeto
+
+    usando o npm init, temos varias perguntas a serem respondidas sobre a estrutura do projeto.
+
+    usando o npm init -y, ele responde todas as perguntas e cria o arquivo de projeto automaticamente!
+ 
+    Ainda dentro do terminal, podemos instalar dependecias de terceiros, usando o npm i <nome da dependencia> (Obs a pasta node_modules vai ser criada no diretorio em que vc roda o comando npm i)
+
+        NESTE PONTO ENTENDEMOS PARA QUE SERVE O package.json.. ELE SERVE LITERALMENTE PARA DESCREVER SEU PROJETO, OU SEJA, QUAIS AS DEPENDENCIAS QUE PRECISAM SER BAIXADAS E COMO FUNCIONA!
+
+    vamos agora ver como instalar uma nova dependencia e salvar no package...
+
+        npm i --save  //o save salva dentro do package
+
+            vamos iniciar instalando o axios (observe o aarquivo package.json, veja que o axios vai aparecer descrito, tal como a sua versao!)
+
+            "dependencies": {
+                "axios": "^0.21.1"
+            } 
+                    //perceba que existe um caractere antes da versao (^) isso quer dizer que ele vai atualizar a versao do meio! Perceba que a versao é separada em 3 blocos, 0 . 21 . 1, no caso o numero do meio podera ser atualizado quando o simbolo (^) estiver presente na frente da dependencia.
+
+                    //Tambem podera acontecer casos em que antes da versao tera o simbolo (~) que quer dizer aproximacao, isso quer dizer que vc pode pegar apenas versoes onde o fix (ultimo numero) podera ser atualizado...
+
+                    //Deixando apenas a versao, sem nenhum simbolo dizemos que queremos apenas aquela determinada versao...
+
+                        podemos tambem baixar uma  vesao fixa em modo de teste usando o comando...
+
+                            npm install --save-dev axios@0.17.1 -E (neste caso estalariamos o axios em modo de desenvolvimento e perceba que quando executarmos ele criaria um novo campo chamado devdependencies)
+
+        OBS - PERCEBA QUE DENTRO DE funcionarios FOI CRIDA TBM UM ARQUIVO CHAMADO package-lock.json ESSE ARQUIVO TORNA AS DEPENDENCIAS MAIS SEGURAS, POIS ELE NAO DEIXA QUE BAIXEMOS DEPENDENCIAS DE OUTRAS VERSOES, ESSE ARQUIVO DEVE IR PRO GIT. NO CASO ELE SO VAI DEIXAR BAIXAR AS VERSOES QUE TESTAMOS EM NOSSAS MAQUINAS!
+
+
+    a pasta vai ser chaamda de funcionarios... vamos ate la!

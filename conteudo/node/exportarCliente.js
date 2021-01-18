@@ -1,0 +1,1 @@
+const exportar = require('./exportar')
