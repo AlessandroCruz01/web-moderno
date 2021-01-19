@@ -153,4 +153,11 @@
 
         Documentacao scripts npm - https://docs.npmjs.com/cli/v6/using-npm/scripts
 
+# LENDO ARQUIVOS
+
+    vamos ver como ler arquivos usando o node, dentro do node temos varios modulos para leitura de arquivos..
+    vamos a primore criar um arquivo json a ser lido chamado arquivo.json
+
+    apos criar este arquivo, vamos criar o arquivo onde vamos importar o modulo e ler o arquivo json criado,
+    vamos para arquivoLeitura.js
             
