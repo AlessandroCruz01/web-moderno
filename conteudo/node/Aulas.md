@@ -161,3 +161,7 @@
     apos criar este arquivo, vamos criar o arquivo onde vamos importar o modulo e ler o arquivo json criado,
     vamos para arquivoLeitura.js
             
+# ESCREVENDO ARQUIVOS
+
+    Vamos ver agora como podemos escrever um arquivo usando o modulo fs... 
+    vamos para o arquivo, arquivoExcrita.js
