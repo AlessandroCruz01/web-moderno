@@ -165,3 +165,48 @@
 
     Vamos ver agora como podemos escrever um arquivo usando o modulo fs... 
     vamos para o arquivo, arquivoExcrita.js
+
+# FRAMEWORKS WEB
+
+    Vamos falar sobre o conceito de framework, vamos ver mais a frente um framework chamado expressJS, ate aqui estamoo vendo a linguagem js pura. mas em breve vamos ver mais sobre framework....
+
+    um framework é algo que estrutura sua aplicação, no caso ele te da toda uma arquitetura e vc pode desenvolver seguindo aquela msm estrutura organizadamente!
+
+    framework != Biblioteca
+ 
+# PADRAO Middleware
+
+    Existem alguns padroes importantes dentro de JS um deles é o padrao Observer,
+    Mas agora vamos ver um pouco sobre o padrao middleware, pois o express que veremos a seguir é fortemente baseado neste padrao!
+    vamos para o arquivo middleware.js
+
+# INSTALANDO O POSTMAN
+
+    BAIXE E INSTALE O POSTMAN
+
+# PROJETO: API COM Express #01
+
+    Dentro da pasta node vamos criar uma nova pasta chamada projeto
+        pelo terminal, vamos entrar dentro do diretorio da pasta que acabamos de criar e vamos inicializar o npm usando o comando
+
+            ** npm init -y **
+
+        logo apos a inicializacao, vamos instalar express usando o comando...
+
+            ** npm i --save express@4.16.2 -E **
+
+        perceba que usando o @ e no final o -E, dizemos que queremos a versao exata pedida no comando!
+
+
+        logo apos isso, vamos criar uma outra pasta dentro do diretorio projeto, chamado src...
+            dentro de js criamos outro arquivo chamado server.js
+
+    primeiramente quando vamos executar alguma aplicacao que tem comunicao cm rede, nos precisamos declarar uma porta! Mas o que é uma porta? 
+        Porta é um processo dentro do computador, ela serve para especificar por onde pode-se aceitar os pacotes de informacao para ser interpretado pela apliocacao especifica que precisamos mandar, pense assim, dentro do seu pc tem varios processos, imagine que vc precisa receber uma informacao para uma aplicacao, mas a informacao tem apenas seu endereco IP, ela vai chegar n sua maquina, mas n vai saber para qual aploicaacao vai mandar a informacao.
+        Pense isso que cada porta é unica por processo!
+
+        Perceba que, se definirmos uma porta e estartar a aplicacao. Blz ai vou abro outro interpretador e tento executar a msm aplicacao na msm porta. Perceba que vai dar problema porque como foi dito. A porta é unica por processo!!
+
+        Existe uma porta padrao para requisicoes http, a porta 80
+
+    vamos para o arquivo server.js...
