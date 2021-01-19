@@ -82,3 +82,7 @@
 
 
     a pasta vai ser chaamda de funcionarios... vamos ate la!
+
+# INSTANCIA UNICA VS NOVA INSTANCIA
+
+    vamos agora ver como o node faz cash de modulos que sao importados a partir do require. vamos usar uma funcao factory para que possamos sempre que importar um modulo um novo objeto seja criado,... entao vamos ao arquivo instanciaUnica.js
