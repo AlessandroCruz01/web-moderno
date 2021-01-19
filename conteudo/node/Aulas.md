@@ -101,3 +101,56 @@
 
     Um outro exemplo que vamos fazer é passar parametros a modulos, a primore n temos isso mas se um modulo retorna uma funcao, podemos passar paramtros
     vamos para o arquivo passandoParametros.js...
+
+# INSTALANDO Deps & Scripts
+
+    nesta aula vamos ver duas coisas bem simples que tem haver com o package.json:
+        1 - podemos criara scripts dentro deste arquivo para a execucao mais simples a partir do terminal
+        2 - a partir do package.json podemos recriar a pasta node_modules
+
+    Vamos para nosso diretorio de funcionarios que criamos anteriormente...
+        vamos excluir a pasta node_modules (porem temos o package.json que como ja foi dito, é basicamente o que descreve nosso projeto)
+
+            VAMOS PARA DENTRO DO ARQUIVO package.json vamos criar dois comando e vamos executar a partir do terminal
+
+            (PARA MAIOR FACILIDADE VOU EDITAR TUDO POR AQUI...)
+            {
+                "name": "funcionarios",
+                "version": "1.0.0",
+                "description": "",
+                "main": "index.js", (vamos mudar o arquivo principal de index.js para funcionarios.js, pois este é nosso arquivo principal deste exemplo)
+                "scripts": { (DENTRO DE SCRIPTS VAMOS ADICIONAR DOIS, UM É O START QUE CHAMA O NODEMON E OUTRO QUE CHAMA-SE DEV QUE VAI DISPARAR O NODEMON)
+                    "start": "nodemon",
+                    "dev": "nodemon",
+                    "test": "echo \"Error: no test specified\" && exit 1"
+                },
+                "keywords": [],
+                "author": "",
+                "license": "ISC",
+                "dependencies": {
+                    "axios": "0.21.1"
+                }
+            }
+                    
+        Apos as alteracoes vamos para o terminal...
+            para recriar a pasta node_modules, basta ir ate o diretorio e executar o comando no terminal:
+
+                ** npm i **
+
+            perceba que a pasta node_modulos reapareceu dentro do diretorio funcionarios...
+                
+        vamos ver como estartar os scripts que criamos...
+
+            a forma mais simples é usando o comando
+
+                ** npm start **
+
+            perceba que o nodemon fica persistindo a aplicacao ou seja, se mudarmos qq coisa no funcionarios.js, o proprio nodemon percebe a mudanca, da o refresh e executa de novo
+
+            perceba que se tentarmos executar o comando ** npm dev ** como executado com o start, isso acontece pq o start é um comando padrao do node, mas o dev n é padrao, neste caso temos que executar este comando usando o run:
+
+                ** npm run dev **
+
+        Documentacao scripts npm - https://docs.npmjs.com/cli/v6/using-npm/scripts
+
+            
