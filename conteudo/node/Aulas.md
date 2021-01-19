@@ -210,3 +210,7 @@
         Existe uma porta padrao para requisicoes http, a porta 80
 
     vamos para o arquivo server.js...
+
+# PROJETO: API COM Express #02
+
+    Vamos continuar o projeto mas agora criando um arquivo para simular um bd....
