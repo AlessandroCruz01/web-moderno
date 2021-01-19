@@ -86,3 +86,13 @@
 # INSTANCIA UNICA VS NOVA INSTANCIA
 
     vamos agora ver como o node faz cash de modulos que sao importados a partir do require. vamos usar uma funcao factory para que possamos sempre que importar um modulo um novo objeto seja criado,... entao vamos ao arquivo instanciaUnica.js
+
+# OBJETO GLOBAL DO NODE
+
+    Assim como no browser, existe o objeto global chamado window, no node tambem temos este objeto chamado global, vamos entender como ele funciona,
+    vamos para o arquivo global.js
+
+# ENTENDENDO O THIS
+
+    O this aponta para o module.exports, vamos ver algumas coisas ja vistas para servir mais como revisao! 
+    vamos para o arquivo this.js
