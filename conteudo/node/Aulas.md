@@ -96,3 +96,8 @@
 
     O this aponta para o module.exports, vamos ver algumas coisas ja vistas para servir mais como revisao! 
     vamos para o arquivo this.js
+
+# PASSANDO PARAMETROS ENTRE MODULOS
+
+    Um outro exemplo que vamos fazer é passar parametros a modulos, a primore n temos isso mas se um modulo retorna uma funcao, podemos passar paramtros
+    vamos para o arquivo passandoParametros.js...
