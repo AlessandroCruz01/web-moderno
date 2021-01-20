@@ -24,3 +24,13 @@
 
     Nesta aula vamos ver sobre novos recursos de objetos
     vamos para o arquivo revisao03.js
+
+# OPERADOR Rest / Spread
+
+    Agora vamos falar um pouco sobre o operador rest / spread
+        Estes dois nomes dizem respeito a como o operador ... é usado.
+            caso vc vá pegar algo e juntar - rest
+            caso vc vá pegar algo e espalhar - spread
+        
+        No exercicio de revisao #03, vimos como usamos o rest, agora vamos ver como usar o spread...
+            vamos para o arquivo operadorRestSpread.js...
