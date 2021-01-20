@@ -214,3 +214,19 @@
 # PROJETO: API COM Express #02
 
     Vamos continuar o projeto mas agora criando um arquivo para simular um bd....
+
+# TAREFAS AGENDADAS COM TEMPORIZADOR
+
+    Outra coisa muito legal de fazer no node, sao disparar processos temporizados! existe um modulo expecifico, onde podemos agendar processos,
+    este modulo se chama node-schedule, podemos fazer a instalacao dele pelo comando
+
+        ** npm i node-schedule ** vamos instalar a versao @1.3.0
+
+    vamos para o arquivo chamado temporizador.js
+
+# PROCESS: ENTRADA E SAIDA PADRAO
+
+    Dentro do node, temos alguns objetos e constantes que sao disponiveis globalmente por exemplo o _dirname ou mesmo o objeto global.
+    temos tambem o process que serve para ler dados do teclado do usuario e podemos lelo tbm. 
+    vamos fazer um exemplo usando process
+    entradaESaida.js
