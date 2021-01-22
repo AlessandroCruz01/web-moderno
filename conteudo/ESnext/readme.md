@@ -34,3 +34,8 @@
         
         No exercicio de revisao #03, vimos como usamos o rest, agora vamos ver como usar o spread...
             vamos para o arquivo operadorRestSpread.js...
+
+# Tagged Template #01 & #02
+
+    Ja vimos anteriormente os templates strings `` , tambem temos os tags de tamplate que nada mais é que usar template estring dentro de uma funcao
+    Vamos para o arquivo taggedTemplate01.js e taggedTemplate02.js
