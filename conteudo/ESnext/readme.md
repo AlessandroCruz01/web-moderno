@@ -39,6 +39,3 @@
 
     Ja vimos anteriormente os templates strings `` , tambem temos os tags de tamplate que nada mais é que usar template estring dentro de uma funcao
     Vamos para o arquivo taggedTemplate01.js e taggedTemplate02.js
-
-
-    
