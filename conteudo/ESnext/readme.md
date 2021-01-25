@@ -39,3 +39,8 @@
 
     Ja vimos anteriormente os templates strings `` , tambem temos os tags de tamplate que nada mais é que usar template estring dentro de uma funcao
     Vamos para o arquivo taggedTemplate01.js e taggedTemplate02.js
+
+# MAP
+
+    Nos ja temos uma estrutuda chave/valor que é exatamente o Objeto, mas foi adicionado uma estrutura chamada map, onde a chave pode ser uma funcao, numero ou objeto. O map nao veio para substituir o Objeto mas ele é bem flexivel
+    vamos para o arquivo map.js
