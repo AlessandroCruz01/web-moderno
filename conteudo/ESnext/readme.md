@@ -50,3 +50,9 @@
     Uma outra estrutura que foi adiciona recentemente é o set, o set é uma estrutura de conjunto nao indexada que nao aceita repeticao!
     A exemplo do array que é uma estrutura indexada onde podemos acessar seus elementos a partir do indice, no set isso n ocorre porque ele é um conjunto nao indexado..
     vamos para o arquivo set.js
+
+# forOf
+
+    Recentemente foi adicionado outro tipo de for, o forOf, atua encima de valores e nao encima de idices...
+    vamos para o arquivo forOf.js
+    
