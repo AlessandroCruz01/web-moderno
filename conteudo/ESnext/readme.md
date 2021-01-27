@@ -44,3 +44,9 @@
 
     Nos ja temos uma estrutuda chave/valor que é exatamente o Objeto, mas foi adicionado uma estrutura chamada map, onde a chave pode ser uma funcao, numero ou objeto. O map nao veio para substituir o Objeto mas ele é bem flexivel
     vamos para o arquivo map.js
+
+# SET
+
+    Uma outra estrutura que foi adiciona recentemente é o set, o set é uma estrutura de conjunto nao indexada que nao aceita repeticao!
+    A exemplo do array que é uma estrutura indexada onde podemos acessar seus elementos a partir do indice, no set isso n ocorre porque ele é um conjunto nao indexado..
+    vamos para o arquivo set.js
