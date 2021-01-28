@@ -55,4 +55,10 @@
 
     Recentemente foi adicionado outro tipo de for, o forOf, atua encima de valores e nao encima de idices...
     vamos para o arquivo forOf.js
+
+# Promises
+
+    Vamos agora falar de promises, o promise é algo como se fosse uma promessa. vc usa o promise quando quiser ter algum tipo de processamento assincrono. e ela tem duas grandes bases, ou seja ou da sucesso ou erro...
+    vamos para o arquivo promise.js
+    
     
