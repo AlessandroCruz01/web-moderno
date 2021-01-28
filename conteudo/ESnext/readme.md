@@ -74,3 +74,8 @@
 # REFATORANDO Callback p/ Promise
 
     Vamos agora ver o mesmo desafio anterior escrito com prmises...
+
+# Async / Await
+
+    Surgido na versao mais nova do ECMA Script, ele torna algo assincrono ema algo que parece sincrono. ou seja ele simplifica codigos assincrono.
+    vamos para o arquivo asyncAwait.js
