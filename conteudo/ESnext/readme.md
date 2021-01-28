@@ -60,5 +60,17 @@
 
     Vamos agora falar de promises, o promise é algo como se fosse uma promessa. vc usa o promise quando quiser ter algum tipo de processamento assincrono. e ela tem duas grandes bases, ou seja ou da sucesso ou erro...
     vamos para o arquivo promise.js
+
+# Usando Callbacks Aninhadas
+
+    DESAFIO - vamos precisar obter 3 arquivos JSON de 3 turmas diferentes, os arquivos estao no link:  
+        http://files.cod3r.com.br/curso-js/turmaA.json 
+        http://files.cod3r.com.br/curso-js/turmaB.json 
+        http://files.cod3r.com.br/curso-js/turmaC.json
     
-    
+    Vamos ver primeiramente como resolver este desafio sem promises, mais adiante veremos como se faz com priomises
+        vamos para o arquivo usandoCallbacks.js..
+
+# REFATORANDO Callback p/ Promise
+
+    Vamos agora ver o mesmo desafio anterior escrito com prmises...
