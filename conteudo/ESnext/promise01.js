@@ -10,7 +10,7 @@ console.log(typeof Promise)
 //Ou seja essa funcao recebe como parametro uma funcao quando quiser cumprir a promessa....
 
 let p = new Promise(function(cumprirPromessa){//Uma promessa so recebe um parametro...
-    cumprirPromessa(3)
+    cumprirPromessa([ 'Ana', 'Bia', 'Lucas'])
 })
 
 console.log(typeof p)//Perceba que quando a promise quando usada com o operador new ele se torna um objeto
@@ -23,4 +23,7 @@ p.then(function(valor) {
     console.log(valor)//perceba que o resultado é exatamente o valor 3
 })
 
+//Umas das vantagens de termos promises, é o fato de podermos chamar o then varias vezes...
+p.then(letra => console.log(letra[0]))
 
+.then()
