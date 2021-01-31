@@ -1,7 +1,5 @@
 //promise é promessa ou seja é algo que resolveremmos no futuro!
 
-const { promises } = require("fs")
-
 let a = 1 //quando definimos uma variavel, na linha seguinte ja temos ela disponivel para nosso uso!
 console.log(a)
 
@@ -11,7 +9,7 @@ console.log(typeof Promise)
 
 //Ou seja essa funcao recebe como parametro uma funcao quando quiser cumprir a promessa....
 
-let p = new Promise(function(cumprirPromessa){
+let p = new Promise(function(cumprirPromessa){//Uma promessa so recebe um parametro...
     cumprirPromessa(3)
 })
 
