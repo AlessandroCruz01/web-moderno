@@ -57,3 +57,9 @@ p
     .then(primeiraLetra)
     .then(mudaLetra)
     .then(console.log)//Perceba que nao precisamos dizer oque ele deve imprimir na tela, pq ele resolve a partir do metodo, ja trazendo o parametro dando do then anterior
+
+//OBS - para finalizar, vamos ver os nomes oficiais das promises...
+
+new Promise(function(resolve){
+    resolve('Nome oficial para cumprir promessas...')
+})
