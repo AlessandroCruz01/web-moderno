@@ -89,3 +89,8 @@
 
     vamos para o segundo exercicio para entender promises,
     vamos para o arquivo promise02.js...
+
+# PROMISE #03
+
+    Vamos agora ver um exercicio em que a nossa intencao sera gerar um numero entre dois numeros. Por exemplo, vamos gerar um numeor aleatorio entre 1 e 60
+    vamos para o arquivo promise03.js
