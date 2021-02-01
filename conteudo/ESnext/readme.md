@@ -84,3 +84,8 @@
 
     Nesta aula reveremos um pouco de promise, vamos ver mais detalhadamente, a abordagem da promise. Assim como vimos anteriormente, vendo um codigo em callback e depois um codigo em feito com promise. mas vendo com detalhes cada diferenca e as qualidades do uso de promise
     vamos para o arquivo promise01.js
+
+# PROMISE #02
+
+    vamos para o segundo exercicio para entender promises,
+    vamos para o arquivo promise02.js...
