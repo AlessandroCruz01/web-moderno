@@ -99,3 +99,8 @@
 
     vamos agora ver um exemplo onde, temos varias promessas e queremos chamar o then apenas quando todas as promessas forem cumpridas!
     vamos para o arquivo promise04.js
+
+# PROMISE #05
+
+    Agora vamos ver como é feito o tratamento de erros no contexto da promises, no caso do js temos um bloco chamado try onde se ocorrer um erro altomaticamente o codigo cai em um outro bloco chamado catch, e isso tambem ocorre no contexto das promises.
+    vamos para o arquivo promise05.js
