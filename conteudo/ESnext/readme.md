@@ -94,3 +94,8 @@
 
     Vamos agora ver um exercicio em que a nossa intencao sera gerar um numero entre dois numeros. Por exemplo, vamos gerar um numeor aleatorio entre 1 e 60
     vamos para o arquivo promise03.js
+
+# PROMISE #04
+
+    vamos agora ver um exemplo onde, temos varias promessas e queremos chamar o then apenas quando todas as promessas forem cumpridas!
+    vamos para o arquivo promise04.js
