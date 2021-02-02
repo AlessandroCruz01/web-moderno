@@ -109,3 +109,8 @@
 
     Agora vamos ver este assunto relacionado a promises, que é um recurso de processamento assincrono...
     vamos para o arquivo asyncAwait.js
+
+# ASYNC / AWAIT #02
+
+    vamos ver agora os tratamentos de erros no contexto do async await
+    asyncAwait02.js....
