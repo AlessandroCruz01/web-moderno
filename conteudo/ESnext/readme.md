@@ -107,4 +107,5 @@
 
 # ASYNC / AWAIT #01
 
-    
+    Agora vamos ver este assunto relacionado a promises, que é um recurso de processamento assincrono...
+    vamos para o arquivo asyncAwait.js
