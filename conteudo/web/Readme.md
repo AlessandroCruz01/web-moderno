@@ -32,3 +32,5 @@
     -> PORTA 
 
         Em redes de computadores, uma porta é um software de aplicação específica ou processo específico servindo de ponto final de comunicações em um sistema operacional hospedeiro de um computador. Uma porta tem associação com o endereço de IP do hospedeiro, assim como o tipo de protocolo usado para comunicação
+
+# Protocolo HTTP
