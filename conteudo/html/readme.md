@@ -4,3 +4,7 @@
 # AULA 01 - ANATOMIA DA TAG
     
     vamos ver a estrutura de uma tag, vamos para o arquivo anatomiaTag.js
+
+# AULA 02 - ANATOMIA HTML
+
+    Arquivo anatomiaHtml.html
