@@ -12,3 +12,13 @@
 # AULA 03 - UM POUCO DE CSS
 
     vamos ver um pouco de como funciona o CSS...
+
+# AULA 04 - ESTRUTURANDO OS EXERCICIOS
+
+    Vamos abrir o terminal...
+         
+        npm i -g http-server
+
+            vamos instalar um serviodr http feito pra node...
+
+            
