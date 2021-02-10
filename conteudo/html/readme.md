@@ -8,3 +8,7 @@
 # AULA 02 - ANATOMIA HTML
 
     Arquivo anatomiaHtml.html
+
+# AULA 03 - UM POUCO DE CSS
+
+    vamos ver um pouco de como funciona o CSS...
