@@ -25,9 +25,19 @@
     </footer>    
 
     <script>
+
         document.querySelectorAll('a').forEach(link => {
-            console.log(link)
+            link.onclick = function(e) {
+                e.preventDefault()
+                console.log('Ação!')
+
+                const conteudo = document.getElementById('conteudo')
+                fetch(link.href)
+                    .then(resp => resp.text())
+                    .then(html => conteudo.innerHTML = html)
+            }
         })
+
     </script>
 </body>
 </html>
