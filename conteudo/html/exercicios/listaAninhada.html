@@ -1,30 +1,85 @@
 <h1>Listas aninhadas</h1>
 
 <ul class="tree">
+
     <li>
-        Backend
-        <ul>
+        <a href="#" onclick="mostrarAbas(this)" id="backend">Backend</a>
+        <ul id="elementsBackend">
+
             <li>
-                App
-                <ul>
-                    <li>Produtos.js</li>
-                    <li>usuario.js</li>
-                    <li>rotas.js</li>
-                </ul>
+                <a href="#" onclick="mostrarAbas(this)" id="app">App</a>
+
+                    <ul id="appElements">
+                            <li>Produtos.js</li>
+                            <li>usuario.js</li>
+                            <li>rotas.js</li>
+                    </ul>
+
+            </li>
+
+            <li>
+                <a href="#" onclick="mostrarAbas(this)" id="config">Config</a>
+
+                    <ul id="configElements">
+                        <li>banco.js</li>
+                        <li>rotas.js</li>
+                        <li>servidor.js</li>
+                    </ul>
+
             </li>
         </ul>
     </li>
+
     <li>
-        FrontEnd
-        <ul>
-            public
-            <ul>
-                <li>app.css</li>
-                <li>app.js</li>
-                <li>index.html</li>
-            </ul>
+        <a href="#" onclick="mostrarAbas(this)" id="frontend">FrontEnd</a>
+
+        <ul id="elementsFront">
+            <li>
+                <a href="#" onclick="mostrarAbas(this)" id="public">Public</a>
+
+                <ul id="elementsPublic">
+                    <li>app.css</li>
+                    <li>app.js</li>
+                    <li>index.html</li>
+                </ul>
+
+            </li>
         </ul>
     </li>
+
 </ul>
 
-<link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
+<link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css" />
+<script>
+
+    function mostrarAbas(obj) {
+
+        switch(obj.id){
+            case 'app':
+                id = 'appElements'
+                break
+            case 'config':
+                id = 'configElements'
+                break
+            case 'backend':
+                id ='elementsBackend'
+                break
+            case 'frontend':
+                id = 'elementsFront'
+                break
+            case 'public':
+                id ='elementsPublic'
+                break
+            default:
+                alert('Erro')
+        }
+        
+        if (document.getElementById(`${id}`).style.display=="none"){
+            document.getElementById(`${id}`).style.display="block"
+        } else {
+            document.getElementById(`${id}`).style.display="none"
+        } 
+
+    }
+
+</script>
