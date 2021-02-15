@@ -3,6 +3,50 @@
 <form action="http://localhost:3003/usuarios" method="POST">
 
     <input type="text" name="nome">
+
+    <input type="password" name="senha">
+    <textarea name="bio" cols="30" rows="10"></textarea>
+
+    <div>
+        <input type="radio" name="tipo" value="admin"> Admin
+        <input type="radio" name="tipo" value="regular"> Regular
+        <input type="radio" name="tipo" value="professor"> Professor
+
+    </div>
+
+    <div>
+        <input type="checkbox" name="ativo">Ativo
+    </div>
+
+    <div>
+        <select name="estado">
+            <option value="acre">Acre</option>
+            <option value="bahia">Bahia</option>
+        </select>
+    </div>
+
+    <div>
+        <select name="interesses" multiple size="4">
+            <option value="js">JS</option>
+            <option value="java">Java</option>
+            <option value="c">C</option>
+            <option value="c++">C++</option>
+        </select>
+    </div>
+
     <button>Incluir</button>
 
 </form>
+
+<style>
+    input, textarea, select{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    input[type=radio],
+    input[type=checkbox]{
+        display: inline;
+    }
+
+</style>
