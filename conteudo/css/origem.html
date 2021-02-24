@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Origem CSS: Externo, Interno e Inline</title>
-    <style>
-        body {
-            background-color: aquamarine;
-        }
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Origem CSS: Externo, Interno e Inline</title>
+        <style>
+            body {
+                /* CSS Interno */
+                background-color: aquamarine;
+            }
+        </style>
+        <link rel="stylesheet" href="./css/externo.css"> <!--Externo-->
+    </head>
 
-<body>
-    <h1>E agora?</h1>
-</body>
+    <body style="background-color: brown;"> <!--Inline-->
+        <h1>E agora?</h1>
+    </body>
 
 </html>
