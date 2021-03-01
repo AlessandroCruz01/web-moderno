@@ -1,4 +1,4 @@
-document.querySelectorAll('.tag').forEach(box => {
+document.querySelectorAll('.tag').forEach(elemento => {
     const tagName = elemento.tagName.toLocaleLowerCase()
 
     elemento.style.borderColor = '#616161'
