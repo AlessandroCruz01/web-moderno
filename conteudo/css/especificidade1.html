@@ -6,6 +6,30 @@
     <title>Especificidade CSS</title>
     <style>
         /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity */
+
+        /* 
+            ESPECIFICIDADES
+
+                1 - regras com o !important
+                2 - seletores mais especificos
+                3 - o ultimo processado tem mais valor (ou seja é me cascata)
+        */
+
+        p {
+            background-color: brown;
+        }
+
+        .observacao {
+            background-color: cornflowerblue;
+        }
+
+        /* perceba que a classe é mais especifico que a tag */
+
+        p.observacao {
+            background: linear-gradient(to right, red, blue);
+        }
+
+        /* por sua vez a tag junto com a classe é mais especifico */
     </style>
 </head>
 
